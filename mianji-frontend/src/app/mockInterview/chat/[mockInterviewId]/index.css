@@ -1,0 +1,68 @@
+#interviewRoomPage {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 70%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.message-area {
+    margin-bottom: 48px;
+    height: 60vh;
+    overflow-y: auto;
+}
+
+.message-bubble {
+    max-width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 8px 0;
+}
+
+.message-bubble.ai {
+    background: #f0f2f5;
+    border: 1px solid #d9d9d9;
+}
+
+.message-bubble.user {
+    background: #fcacc6;
+    color: rgb(0, 0, 0);
+}
+
+.message-content {
+    font-size: 14px;
+}
+
+.message-time {
+    font-size: 12px;
+    color: #6e6e6e;
+    margin-top: 4px;
+    text-align: right;
+}
+
+.input-area {
+    display: flex;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+.input-area textarea {
+    flex: 1;
+}
+
+.input-area textarea:hover,
+.input-area textarea:focus {
+    border-color: #FF69B4;
+}
