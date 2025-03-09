@@ -4,8 +4,7 @@
 项目使用数据库连接池、多种缓存数据库缓存数据，实现热 Key 探测、黑名单 IP 过滤、同端登录检测、反爬虫，集成AI DeepSeek 进行AI模拟面试。
 
 [项目部署参考链接](http://62.234.35.98/) （轻点测谢谢，deepseek的token不多 Orz）
-## 技术栈
-### 后端
+## 技术架构
 - JDK 17
 - 框架：Spring Boot
 - 数据存储：MySQL + Redis + Elasticsearch 分词搜索
@@ -25,3 +24,9 @@
 ![image](https://github.com/user-attachments/assets/1638b2a5-6ebf-497c-ad8d-512c74194cbf)
 - 题目详情
 ![image](https://github.com/user-attachments/assets/456142e6-0dbb-4008-8dbc-b3cfcf855153)
+
+测试用户 user 密码 12345678
+
+### 待开发
+- [x] 引入 AI 功能
+- [ ] 用户发帖模块
