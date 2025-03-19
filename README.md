@@ -7,7 +7,7 @@
 - 框架：Spring Boot
 - 数据存储：MySQL + Redis + Elasticsearch 分词搜索
 - 鉴权：Sa-Token
-- 配置中心：Nacos
+- 配置中心：Nacos + Etcd
 - 限流：Sentinel
 - 热点探测：HotKey
 
